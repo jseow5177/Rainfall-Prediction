@@ -1,0 +1,50 @@
+# Metadata for Sunshine Duration- Monthly Mean Daily Duration
+---
+Identifier: 'c97d092a-4ae8-4f6d-bb1a-d66e3eb7d364'
+Name: 'sunshine-duration-monthly-mean-daily-duration'
+Title: 'Sunshine Duration- Monthly Mean Daily Duration'
+Description: 'The monthly mean sunshine hours in a day recorded at the Changi Climate
+  Station.'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'Climate'
+  - 'NEA'
+  - 'Weather'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Ong Chin Hong'
+    Department: 'CCRS'
+    Email: 'ong_chin_hong@nea.gov.sg'
+  Admin 2:
+    Name: 'Ang Chieng Hai'
+    Department: 'CCRS'
+    Email: 'ang_chieng_hai@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1982-01-01 to 2019-06-30'
+Last Updated: '2019-07-11T06:38:52.643510'
+Resources:
+  -
+    Identifier: '0230819f-1c83-4980-b738-56136d6dc300'
+    Title: 'Sunshine Duration- Monthly Mean Daily Duration'
+    Url: 'https://storage.data.gov.sg/sunshine-duration-monthly-mean-daily-duration/resources/sunshine-duration-monthly-mean-daily-duration-2019-07-11T06-38-52Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2019-06-30'
+    Last Updated: '2019-07-11T06:38:52.230071'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'mean_sunshine_hrs'
+        Title: 'Monthly Mean Daily Sunshine Duration'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Hours'

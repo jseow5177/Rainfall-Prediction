@@ -1,0 +1,51 @@
+# Metadata for Surface Air Temperature - Monthly Absolute Extreme Minimum
+---
+Identifier: '7d37e12e-15f8-4e0b-917d-d7a66c880e12'
+Name: 'surface-air-temperature-monthly-absolute-extreme-minimum'
+Title: 'Surface Air Temperature - Monthly Absolute Extreme Minimum'
+Description: 'The absolute extreme minimum air temperature recorded at the Changi
+  Climate Station.'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'Climate'
+  - 'NEA'
+  - 'Temperature'
+  - 'Weather'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Ong Chin Hong'
+    Department: 'CCRS'
+    Email: 'ong_chin_hong@nea.gov.sg'
+  Admin 2:
+    Name: 'Ang Chieng Hai'
+    Department: 'CCRS'
+    Email: 'ang_chieng_hai@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1982-01-01 to 2019-06-30'
+Last Updated: '2019-07-11T06:33:28.325036'
+Resources:
+  -
+    Identifier: '0c5b9752-2488-46cc-ae1c-42318d0f8865'
+    Title: 'Surface Air Temperature - Monthly Absolute Extreme Minimum'
+    Url: 'https://storage.data.gov.sg/surface-air-temperature-monthly-absolute-extreme-minimum/resources/surface-air-temperature-monthly-absolute-extreme-minimum-2019-07-11T06-33-27Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2019-06-30'
+    Last Updated: '2019-07-11T06:33:27.781620'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'temp_extremes_min'
+        Title: 'Absolute Minimum Temperature in the Month'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Degree Celsius'

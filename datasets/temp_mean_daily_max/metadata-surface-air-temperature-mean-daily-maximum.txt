@@ -1,0 +1,71 @@
+# Metadata for Surface Air Temperature - Mean Daily Maximum
+---
+Identifier: '202bbd05-016c-4ef2-a07a-b21e4b110926'
+Name: 'surface-air-temperature-mean-daily-maximum'
+Title: 'Surface Air Temperature - Mean Daily Maximum'
+Description: 'The monthly and annual mean daily maximum temperature recorded at the
+  Changi Climate Station.'
+Topics:
+  - 'Environment'
+Keywords:
+  - 'Climate'
+  - 'NEA'
+  - 'Temperature'
+  - 'Weather'
+Publisher:
+  Name: 'National Environment Agency'
+  Admin 1:
+    Name: 'Ong Chin Hong'
+    Department: 'CCRS'
+    Email: 'ong_chin_hong@nea.gov.sg'
+  Admin 2:
+    Name: 'Ang Chieng Hai'
+    Department: 'CCRS'
+    Email: 'ang_chieng_hai@nea.gov.sg'
+Sources:
+  - 'National Environment Agency'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '1982-01-01 to 2019-06-30'
+Last Updated: '2019-07-11T06:36:07.698115'
+Resources:
+  -
+    Identifier: 'c7a7d2fd-9d32-4508-92ef-d1019e030a2f'
+    Title: 'Surface Air Temperature - Monthly Mean Daily Maximum'
+    Url: 'https://storage.data.gov.sg/surface-air-temperature-mean-daily-maximum/resources/surface-air-temperature-monthly-mean-daily-maximum-2019-07-11T06-36-07Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2019-06-30'
+    Last Updated: '2019-07-11T06:36:07.071354'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'temp_mean_daily_max'
+        Title: 'Monthly Mean Daily Maximum Temperature'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Degree Celsius'
+  -
+    Identifier: 'b063ccfd-65af-465e-b60a-ddd97d78e7a1'
+    Title: 'Surface Air Temperature - Annual Mean Daily Maximum'
+    Url: 'https://storage.data.gov.sg/surface-air-temperature-mean-daily-maximum/resources/surface-air-temperature-annual-mean-daily-maximum-2019-02-03T08-11-29Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2018-12-31'
+    Last Updated: '2019-02-03T08:11:29.792041'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'temp_mean_daily_max'
+        Title: 'Annual Mean Daily Maximum Temperature'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Degree Celsius'
